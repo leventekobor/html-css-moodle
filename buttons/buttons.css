@@ -1,0 +1,136 @@
+.btn-common {
+  cursor: pointer;
+  margin: 5px;
+  line-height: 16px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  width: fit-content;
+}
+
+.primary {
+  border: 1px solid #1890FF;
+  background-color: #1890FF;
+  color: white;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+}
+
+.secondary {
+  border: 1px solid #D9D9D9;
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.016);
+}
+
+.dashed {
+  background: #FFFFFF;  
+  border: 1px dashed #D9D9D9;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.016);
+}
+
+.disabled {
+  background: #F5F5F5;
+  border: 1px solid #D9D9D9;
+  border-radius: 2px;
+  cursor: not-allowed;
+  pointer-events: none;
+  color: #b3b3b3;
+}
+
+.danger {
+  background: #FF4D4F;
+  color: white;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+  border: 2px solid #FF4D4F; 
+}
+
+.danger-reversed {
+  background: white;
+  color: #FF4D4F;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+  border: 2px solid #FF4D4F; 
+}
+
+.danger-dashed {
+  background: white;
+  color: #FF4D4F;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+  border: 2px dashed #FF4D4F; 
+}
+
+.search-round {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #1890FF;
+  background-color: #1890FF;
+  color: white;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+  border-radius: 100px;
+}
+
+.search-round-reversed {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #1890FF;
+  background-color: white;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+  border-radius: 100px;
+}
+
+.search-round-dashed {
+  margin: 5px;
+  width: 32px;
+  height: 32px;
+  border: 1px dashed #1890FF;
+  background-color: white;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+  border-radius: 100px;
+}
+
+.small {
+  font-size: 14px;
+  height: 24px;
+}
+
+.medium {
+  height: 32px;
+  font-size: 15px;
+}
+
+.big {
+  height: 39px;
+  font-size: 16px;
+}
+
+.small-icon {
+  font-size: 14px;
+  height: 24px;
+}
+
+.medium-icon {
+  height: 32px;
+  font-size: 15px;
+}
+
+.big-icon {
+  height: 39px;
+  font-size: 16px;
+}
+
+.small-icon::before {
+  font-family: fontAwesome;
+  content: "\f0c7\00a0";
+}
+
+.medium-icon::before {
+  font-family: fontAwesome;
+  content: "\f0c7\00a0";
+}
+
+.big-icon::before {
+  font-family: fontAwesome;
+  content: "\f0c7\00a0";
+}
+
+.search-icon::before {
+  font-family: fontAwesome;
+  content: "\f002\00a0";
+}
