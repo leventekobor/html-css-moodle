@@ -5,6 +5,20 @@ html, body {
   font-family: Roboto;
 }
 
+a {
+  font-weight: bold;
+  text-decoration: none;
+  margin: 2px 20px;
+  color: gray;
+  transition: all 0.15s ease-in-out;
+}
+
+a:hover {
+  color: black;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .main-layout {
   display: grid;
   grid-template-areas:"h h h h h"
@@ -31,19 +45,21 @@ html, body {
 }
 
 .content {
-  text-align: center;
   grid-area: c;
+  padding: 1em;
 }
 
 .title {
   grid-column: span 2;
+  margin: 5px;
+  display: flex;
 }
 
 .buttons {
   white-space: pre-wrap;
   font-size: 1em;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   grid-gap: 1.5rem;
   background-color: white;
   margin: 10px;
@@ -51,5 +67,18 @@ html, body {
 
 .display-buttons {
   display: grid;
-  grid-template-columns: repeat(2, minmax(100px, 1fr));
+  grid-template-columns: repeat(2, minmax(90px, 110px));
+}
+
+.typography {
+  background-color: white;
+  margin: 10px;
+  padding: 15px;
+}
+
+.typography-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-evenly;
 }

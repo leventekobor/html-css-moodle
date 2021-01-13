@@ -57,6 +57,7 @@
 }
 
 .search-round {
+  margin: 7px;
   width: 32px;
   height: 32px;
   border: 1px solid #1890FF;
@@ -67,6 +68,7 @@
 }
 
 .search-round-reversed {
+  margin: 7px;
   width: 32px;
   height: 32px;
   border: 1px solid #1890FF;
@@ -76,7 +78,7 @@
 }
 
 .search-round-dashed {
-  margin: 5px;
+  margin: 7px;
   width: 32px;
   height: 32px;
   border: 1px dashed #1890FF;
@@ -131,6 +133,40 @@
 }
 
 .search-icon::before {
+  padding: 2px;
   font-family: fontAwesome;
   content: "\f002\00a0";
+}
+
+.separator {
+  border-left: 1px solid #D9D9D9;
+  padding: 7px;
+}
+
+.small-font-size {
+  font-size: small;
+}
+
+.medium-font-size {
+  font-size: medium;
+}
+
+.large-font-size {
+  font-size: large;
+}
+
+.secondary-color {
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.warning-color {
+  color: #FAAD14;
+}
+
+.danger-color {
+  color: #FF4D4F;
+}
+
+.disabled-color {
+  color: rgba(0, 0, 0, 0.25);
 }
